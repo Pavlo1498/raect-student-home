@@ -5,9 +5,9 @@ function Header(params) {
 		<nav className="header">
 			<div className="head-logo">Logo</div>
 			<ul className="head-action">
-				<li>Поиск фильмов</li>
-				<li>Мои фильмы</li>
-				<li>Войти</li>
+				<li className='head-action__item'>Поиск фильмов</li>
+				<li className='head-action__item'>Мои фильмы</li>
+				<li className='head-action__item'>Войти</li>
 			</ul>
 		</nav>
 	);

@@ -10,4 +10,10 @@
 
 .head-action {
     display: flex;
+    gap: 6px;
+}
+
+.head-action__item {
+    flex: 1 auto;
+    cursor: pointer;
 }

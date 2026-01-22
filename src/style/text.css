@@ -1,0 +1,20 @@
+h1 {
+    color: var(--Grey-50, rgba(235, 238, 245, 1));
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -2%;
+}
+
+span {
+    color: var(--Grey-300, rgba(142, 149, 169, 1));
+    font-family: Poppins;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
