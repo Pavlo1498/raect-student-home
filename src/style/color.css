@@ -1,0 +1,30 @@
+:root {
+    --Blue-500: #1EA9FC;
+    --Blue-800: #0C4265;
+    --Blue-400: #4BB7FD;
+    --Grey-200: #A8AEBF;
+    --Grey-900: #121829;
+    --Grey-700: #323B54;
+    --Grey-100: #03C8D4;
+    --Grey-300: #8E95A9;
+    --Grey-50: #EBEEF5;
+    --Grey-600: #475069;
+    --Grey-400: #767E94;
+    --Black-65: rgb(0 0 0 / 65%);
+    --Black-10: rgb(0 0 0 / 10%);
+    --Orange-400: #FFBD6D;
+    --Orange-500: #FFAD49;
+    --Purple-800: #492C66;
+    --Blue-500: #5A4AAF;
+    --Blue-800: #251E62;
+    --Blue-400: #7B6E6F;
+    --Blue-200: #BEB7FB;
+    --White-10: #FFFFFF;
+    --White-100: #FFFFFF;
+    --Green-400: #37D8A7;
+    --Green-800: #02522A;
+    --Primary-200: #BEB7FB;
+    --Primary-400: #7B6EF6;
+    --Primary-500: #5A4AF4;
+    --Primary-800: #251E62;
+}
