@@ -10,10 +10,17 @@
 
 .head-action {
     display: flex;
-    gap: 6px;
+    gap: 32px;
 }
 
 .head-action__item {
     flex: 1 auto;
     cursor: pointer;
+}
+
+.exit {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
 }

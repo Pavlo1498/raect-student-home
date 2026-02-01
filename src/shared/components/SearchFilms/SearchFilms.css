@@ -1,3 +1,10 @@
 .search-film {
     padding-top: 80px;
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+}
