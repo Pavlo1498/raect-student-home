@@ -8,8 +8,13 @@ import searchIcon from '@assets/searchIcon.png';
 function SearchFilms() {
 	const [searchValue, setValue] = useState('');
 
-	const handleInputChange = (text) => {
+	const handleChange = (text) => {
 		setValue(text);
+	};
+
+	const buttonChange = () => {
+		console.log(searchValue);
+        
 	};
 	return (
 		<div className='search-film'>
@@ -21,10 +26,13 @@ function SearchFilms() {
 				<Input
 					value={searchValue}
 					placeholder='Введите значение'
-					onChange={handleInputChange}
+					onChange={handleChange}
 					icon={searchIcon}
 				/>
-				<Button text='Искать'/>
+				<Button
+					text='Искать'
+					onClick={buttonChange}
+				/>
 			</div>
 		</div>
 	);
