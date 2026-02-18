@@ -1,0 +1,55 @@
+.card {
+    width: 282px;
+    height: 520px;
+    background-color: #2a2e36;
+    border-radius: 12px;
+}
+
+.card-wrapper {
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.poster {
+    position: relative;
+}
+
+.rating {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 8px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 4px;
+}
+
+.rating > span {
+    color: #FFAD49;
+}
+
+.title {
+    padding: 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #EBEEF5;
+}
+
+
+.favorite {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 8px;
+}
+
+.favorite > span {
+    color: #7B6EF6;
+    font-weight: bold;
+    text-align: center;
+}
