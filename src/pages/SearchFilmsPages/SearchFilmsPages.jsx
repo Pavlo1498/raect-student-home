@@ -1,10 +1,12 @@
-import './SearchFilmsPages.css';
+import cn from 'classnames';
+
+import styles from './SearchFilmsPages.module.css';
 
 import SearchFilms from '../../shared/components/SearchFilms/SearchFilms';
 
 function SearchFilmsPages() {
 	return (
-		<div className='search-page'>
+		<div className={cn(styles['search-page'])}>
 			<SearchFilms />
 		</div>
 	);

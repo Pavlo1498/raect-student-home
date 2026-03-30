@@ -1,9 +1,11 @@
-import './Button.css';
+import cn from 'classnames';
+
+import styles from './Button.module.css';
 
 function Button({text, onClick}) {
 	return (
 		<button
-			className='button'
+			className={cn(styles['button'])}
 			onClick={onClick}
 		>
 			{text}

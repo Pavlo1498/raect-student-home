@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import './SearchFilms.css';
+import cn from 'classnames';
+
+import styles from './SearchFilms.module.css';
 
 import Button from '../../../widgets/Button/Button';
 import Input from '../../../widgets/Input/Input';
@@ -17,12 +19,12 @@ function SearchFilms() {
         
 	};
 	return (
-		<div className='search-film'>
+		<div className={cn(styles['search-film'])}>
 			<h1>Поиск</h1>
-			<div className='mt-16'>
+			<div className={cn(styles['mt-16'])}>
 				<span>Введите название фильма, сериала или мультфильма для поиска и добавления в избранное.</span>
 			</div>
-			<div className='search'>
+			<div className={cn(styles['search'])}>
 				<Input
 					value={searchValue}
 					placeholder='Введите значение'
